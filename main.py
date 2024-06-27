@@ -15,11 +15,9 @@ def list_default(obj):
         return set(obj)
     raise TypeError
 
-
 file = open("users.json")
 
 users = json.load(file)
-
 
 old = None
 
